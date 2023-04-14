@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'IBM Plex Mono Semibold';
+    src: url('/assets/fonts/IBMPlexMono-SemiBold.ttf');
+}
+
 /*DEFINING MAIN VARIABLES*/
 :root {
     --main-background-color: #EFFAFD;
@@ -6,6 +11,7 @@
     --main-dark-color: #0C2541;
     --main-accent-color: #BFA181;
     --secondary-accent-color: #BB854C;
+    --techy-font-semibold: 'IBM Plex Mono Semibold';     
 }
 
 body{

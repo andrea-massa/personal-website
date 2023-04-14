@@ -1,21 +1,31 @@
 html{
     border: solid black;
 }
-body{
-    border: solid brown;    
-}
-header{
-    border: solid red;
-}
-main{
-    border: solid red;
-}
-nav{
-    border: solid orange;
-}
-#logo_container{
-    border: solid yellow;
-}
-#links_container{
-    border: solid yellow;
-}
+    body{
+        border: solid brown;    
+    }
+    header{
+        border: solid red;
+    }
+        nav{
+            border: solid orange;
+        }
+            #logo_container{
+                border: solid yellow;
+            }
+            #links_container{
+                border: solid yellow;
+            }
+
+    main{
+        border: solid black;
+    }
+        main section{
+            border: solid red;
+        }
+            #welcome_text{
+                border: solid orange
+            }
+                #helloworld_text{
+                    border: solid blue;
+                }
