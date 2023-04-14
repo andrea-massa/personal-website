@@ -1,0 +1,14 @@
+/*DEFINING MAIN VARIABLES*/
+:root {
+    --main-background-color: #EFFAFD;
+    --main-text-color: #EFFAFD;
+    --secondary-background-color: #1F5FA3;
+    --main-dark-color: #0C2541;
+    --main-accent-color: #BFA181;
+    --secondary-accent-color: #BB854C;
+}
+
+body{
+    margin: 0;
+    background-color: var(--main-background-color);    
+}

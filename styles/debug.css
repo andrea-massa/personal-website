@@ -1,0 +1,21 @@
+html{
+    border: solid black;
+}
+body{
+    border: solid brown;    
+}
+header{
+    border: solid red;
+}
+main{
+    border: solid red;
+}
+nav{
+    border: solid orange;
+}
+#logo_container{
+    border: solid yellow;
+}
+#links_container{
+    border: solid yellow;
+}
