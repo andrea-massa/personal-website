@@ -29,3 +29,9 @@ html{
                 #helloworld_text{
                     border: solid blue;
                 }
+                #links-wrapper{
+                    border: solid violet;
+                }
+                    #links-wrapper a{
+                        border: solid orange;
+                    }
