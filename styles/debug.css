@@ -35,3 +35,12 @@ html{
                     #links-wrapper a{
                         border: solid orange;
                     }
+
+
+
+    footer{
+        border: solid violet;    
+    }
+        #footer-links-wrapper{
+            border: solid yellow;
+        }

@@ -33,8 +33,11 @@
     --writing-font-semibold: 'League Spartan Semibold';
     --writing-font-bold: 'League Spartan Bold';
 }
-
-body{
-    margin: 0;
-    background-color: var(--main-background-color);    
+html{
+    overflow-x: hidden;
 }
+    body{
+        margin: 0;
+        width: 100%;    
+        background-color: var(--main-background-color);    
+    }
