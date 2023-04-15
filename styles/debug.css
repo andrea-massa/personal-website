@@ -18,7 +18,7 @@ html{
             }
 
     main{
-        border: solid black;
+        border: solid gray;
     }
         main section{
             border: solid red;
@@ -35,6 +35,10 @@ html{
                     #links-wrapper a{
                         border: solid orange;
                     }
+            
+                #about-section .sub-section{
+                    border: solid orange;
+                }
 
 
 

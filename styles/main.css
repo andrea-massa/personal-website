@@ -22,11 +22,11 @@
 /*DEFINING MAIN VARIABLES*/
 :root {
     --main-background-color: #EFFAFD;
-    --main-text-color: #EFFAFD;
+    --secondary-background-color: #1F5DA3;    
     --main-text-color: #EFFAFD;
     --main-dark-color: #0C2541;
     --main-accent-color: #BFA181;
-    --secondary-accent-color: #BB854C;
+    --secondary-accent-color: #BB854C;    
     --techy-font-regular: 'IBM Plex Mono Regular';     
     --techy-font-semibold: 'IBM Plex Mono Semibold';     
     --writing-font-regular: 'League Spartan Regular';
@@ -38,6 +38,7 @@ html{
 }
     body{
         margin: 0;
-        width: 100%;    
+        width: 100%; 
+        height: 100%;   
         background-color: var(--main-background-color);    
     }
