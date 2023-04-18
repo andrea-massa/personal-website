@@ -1,3 +1,4 @@
+/*IMPORTING FONT FACES*/
 @font-face{
     font-family: 'IBM Plex Mono Semibold';
     src: url('/assets/fonts/IBMPlexMono-SemiBold.ttf');
@@ -19,20 +20,27 @@
     src: url('/assets/fonts/LeagueSpartan-Bold.ttf');
 }
 
+
+
 /*DEFINING MAIN VARIABLES*/
 :root {
+    /*Colors*/
     --main-background-color: #EFFAFD;
     --secondary-background-color: #1F5DA3;    
     --main-text-color: #EFFAFD;
     --main-dark-color: #0C2541;
     --main-accent-color: #BFA181;
     --secondary-accent-color: #BB854C;    
+    /*Fonts*/
     --techy-font-regular: 'IBM Plex Mono Regular';     
     --techy-font-semibold: 'IBM Plex Mono Semibold';     
     --writing-font-regular: 'League Spartan Regular';
     --writing-font-semibold: 'League Spartan Semibold';
     --writing-font-bold: 'League Spartan Bold';
 }
+
+
+/*Defining Universal Styles*/
 html{
     overflow-x: hidden;
 }

@@ -39,16 +39,30 @@ html{
                 #about-section .sub-section{
                     border: solid orange;
                 }
-                    #about-section .text-container{
+                    #my-story-section .text-container{
                         border: solid yellow;
                     }
-                    #about-section #picture_aside{
+                    #my-story-section #picture_aside{
                         border: solid yellow;
                     }
-                    #picture_container{
-                        border: solid black;
+                        #picture_container{
+                            border: solid black;
+                        }
+                    #education-section .content-container{
+                        border: solid red;
                     }
-
+                        #education-section .education-subsection{
+                            border: solid orange;
+                        }
+                            .education-subsection .education-text-container{
+                                border: solid yellow;
+                            }
+                            .education-subsection .education-picture-aside{
+                                border: solid yellow;
+                            }
+                                .education-picture-aside > div{
+                                    border: solid black;
+                                }
 
 
     footer{
