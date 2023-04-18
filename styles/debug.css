@@ -39,6 +39,15 @@ html{
                 #about-section .sub-section{
                     border: solid orange;
                 }
+                    #about-section .text-container{
+                        border: solid yellow;
+                    }
+                    #about-section #picture_aside{
+                        border: solid yellow;
+                    }
+                    #picture_container{
+                        border: solid black;
+                    }
 
 
 
