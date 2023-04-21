@@ -76,15 +76,16 @@ main{
             color: var(--main-text-color);
         }
             #about-section h1{
-                font-family: 'League Spartan Bold';                
+                font-family: var(--writing-font-bold);                
                 font-size: 40px;                
                 line-height: 37px;                                
                 color: var(--main-dark-color);
                 text-align: center;                                
             }
             .sub-section{
-                width: 90%;
-                margin: 5vh 5% 5vh 5%;
+                max-width: 85%;
+                min-width: 80%;
+                margin: 5vh auto 5vh auto;
                 background-color: var(--secondary-background-color);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 40px;                                
@@ -93,7 +94,7 @@ main{
                     margin: 20px auto 20px auto;
                     width: 90%;        
                     padding: 35px 10px 10px 10px;                                  
-                    font-family: 'League Spartan';
+                    font-family: var(--writing-font-semibold);  
                     font-style: normal;                    
                     font-size: 30px;
                     line-height: 28px;                    
@@ -113,11 +114,11 @@ main{
                         width: 40%;   
                         height: 100%;
                         padding: 0 0 5% 5%;
-                        font-family: 'League Spartan Regular';
+                        font-family: var(--writing-font-regular);  
                         font-size: 20px;
                     }
                         .text-container p{
-                            margin: 25px 25px 0;
+                            margin: 25px auto 25px auto;
                         }
                     #picture_aside{                                                                                          
                         display: flex;
@@ -143,9 +144,10 @@ main{
                     flex-direction: column;
                 }
                     .education-subsection{
-                        width: 90%;
-                        margin: 15px auto 15px auto;
-                        display: flex;                        
+                        width: 85%;
+                        margin: 2.5% auto 2.5% auto;
+                        display: flex;   
+                        flex-direction: column;                                             
                     }   
                         .education-text-container h3{
                             font-family: var(--writing-font-semibold);
@@ -181,3 +183,37 @@ main{
                         #uncc-section .education-text-container{
                             text-align: left;
                         }                            
+
+                /*MY SKILLS SECTION*/
+                #skills-subsections-container{
+                    display: flex;
+                    flex-direction: row;
+                }
+                    .skills-subsections{
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto;
+                        width: 50%;
+                    }
+                        .skills-subsections .skills-subsection-img-container{
+                            margin: auto;
+                            background-image: url('/assets/placeholder-images/placeholderProfile.jpg');
+                            width: 70px;
+                            height: 20px;
+                        }
+                        .skills-subsections h3{
+                            font-family: var(--writing-font-semibold);
+                            font-size: 25px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: var(--main-text-color);
+                            text-align: center;                            
+                        }
+                        .skills-subsections .skills-header-paragraph{
+                            margin: 7.5px auto auto auto;
+                            font-family: var(--writing-font-regular);
+                            font-size: 20px;
+                            font-weight: 300;
+                            line-height: 16px;
+                            color: var(--main-text-color);                            
+                        }

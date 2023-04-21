@@ -35,7 +35,6 @@ html{
                     #links-wrapper a{
                         border: solid orange;
                     }
-            
                 #about-section .sub-section{
                     border: solid orange;
                 }
@@ -63,7 +62,21 @@ html{
                                 .education-picture-aside > div{
                                     border: solid black;
                                 }
-
+                /*SKILLS SUBSECTION*/
+                #skills-section #skills-subsections-container{
+                    border: solid black;
+                }
+                    #skills-section .skills-subsections{
+                        border: solid darkblue;
+                    }
+                        .skills-subsections .skills-subsection-img-container{
+                            border: solid blue;
+                        }
+                        .skills-subsections p{
+                            border: solid blue;
+                        }
+                
+                
 
     footer{
         border: solid violet;    
