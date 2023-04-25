@@ -69,11 +69,20 @@ html{
                     #skills-section .skills-subsections{
                         border: solid darkblue;
                     }
-                        .skills-subsections .skills-subsection-img-container{
-                            border: solid blue;
+                        .skills-subsections-header{
+                            border: solid violet;
                         }
-                        .skills-subsections p{
-                            border: solid blue;
+                            .skills-subsections .skills-subsection-img-container{
+                                border: solid blue;
+                            }
+                            .skills-subsections p{
+                                border: solid blue;
+                            }
+                            .skills-subsections .skills-set{
+                                border: solid lightblue;
+                            }
+                        .skills-subsections .project-button-container{
+                            border: solid red;
                         }
                 
                 
