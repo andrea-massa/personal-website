@@ -1,95 +1,12 @@
-html{
+main{
     border: solid black;
 }
-    body{
-        border: solid brown;    
+    #intro-wrapper{
+        border: solid grey;
     }
-    header{
-        border: solid red;
-    }
-        nav{
-            border: solid orange;
+        #intro-paragraph{
+            border: solid red;            
         }
-            #logo_container{
-                border: solid yellow;
-            }
-            #links_container{
-                border: solid yellow;
-            }
-
-    main{
-        border: solid gray;
-    }
-        main section{
+        #button-wrapper{
             border: solid red;
-        }
-            #welcome_text{
-                border: solid orange
-            }
-                #helloworld_text{
-                    border: solid blue;
-                }
-                #links-wrapper{
-                    border: solid violet;
-                }
-                    #links-wrapper a{
-                        border: solid orange;
-                    }
-                #about-section .sub-section{
-                    border: solid orange;
-                }
-                    #my-story-section .text-container{
-                        border: solid yellow;
-                    }
-                    #my-story-section #picture_aside{
-                        border: solid yellow;
-                    }
-                        #picture_container{
-                            border: solid black;
-                        }
-                    #education-section .content-container{
-                        border: solid red;
-                    }
-                        #education-section .education-subsection{
-                            border: solid orange;
-                        }
-                            .education-subsection .education-text-container{
-                                border: solid yellow;
-                            }
-                            .education-subsection .education-picture-aside{
-                                border: solid yellow;
-                            }
-                                .education-picture-aside > div{
-                                    border: solid black;
-                                }
-                /*SKILLS SUBSECTION*/
-                #skills-section #skills-subsections-container{
-                    border: solid black;
-                }
-                    #skills-section .skills-subsections{
-                        border: solid darkblue;
-                    }
-                        .skills-subsections-header{
-                            border: solid violet;
-                        }
-                            .skills-subsections .skills-subsection-img-container{
-                                border: solid blue;
-                            }
-                            .skills-subsections p{
-                                border: solid blue;
-                            }
-                            .skills-subsections .skills-set{
-                                border: solid lightblue;
-                            }
-                        .skills-subsections .project-button-container{
-                            border: solid red;
-                        }
-                
-                
-
-    footer{
-        border: solid violet;    
-    }
-        #footer-links-wrapper{
-            border: solid yellow;
         }
