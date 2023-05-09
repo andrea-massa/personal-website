@@ -4,218 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>            
     <link rel="stylesheet" href="./styles/main.css">
-    <!-- <link rel="stylesheet" href="./styles/debug.css"> -->
-    <link rel="stylesheet" href="./styles/navbar.css">    
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+    <!-- <link rel="stylesheet" href="./styles/debug.css"> -->
     <title>Andrea Massa | Home</title>
 </head>
 
 
 
-<body>
+<body> 
+    <head class="container-fluid">
+        
+    </head>
 
 
-    <header>
-        <!--NAV BAR IN DESKTOP-->
-        <nav id="desktop_nav">
-            <div id="logo_container">
-                <div id="logo">                    
-                </div>        
-            </div>
-            <div id="links_container">
-                <a class="nav_link" href="">Home</a>
-                <a class="nav_link" href="">Projects</a>
-                <a class="nav_link" href="">Contact</a>
-            </div>
-        </nav>
-    </header>    
-
-
-    
-    <main>
-        <!--WELCOME SECTION-->
-        <section class= "main-section" id="welcome_section">
-            <p id="welcome_text">
-                <span id="helloworld_text">Hello World</span><span class="lightWelcomeText">, my name is </span>
-                <span class="boldWelcomeText">Andrea&nbsp;Massa </span> <br>
-                <span class="lightWelcomeText">I am a </span><span class="boldWelcomeText">Software Developer </span>
-                <span class="lightWelcomeText">and </span><span class="boldWelcomeText">UX/UI Designer</span>
-            </p>
-            <div id="links-wrapper">
-                <a href="">My Projects</a>
-                <a href="">Contact Me</a>
+    <main class="container">
+        <section class="row align-items-center" id="intro-wrapper">
+            <p class="col-12 col-md-6 offset-md-2 my-4" id="intro-paragraph">
+                <span class="hello-world-text">Hello World, </span><span class="welcome-light-text">my name is</span><br>
+                <span class="welcome-bold-text">Andrea Massa</span>
+                <span class="welcome-light-text">I am a </span><span class="welcome-bold-text">Software Developer</span><br>
+                <span class="welcome-light-text"> and </span><span class="welcome-bold-text">UX/UI Designer</span>
+            </p>            
+            <div class="col-md-12 text-center my-3" id="button-wrapper">
+                <a class="btn btn-primary btn-xl intro-button mx-1">Projects</a>
+                <a class="btn btn-primary btn-xl intro-button mx-1">Contact Me</a>
             </div>            
-        </section>
-
-
-        <!--ABOUT ME SECTION-->
-        <section class= "main-section" id="about-section">
-            <h1>About Me</h1>
-
-            <!--ABOUT ME -> MY STORY SUBSECTION-->
-            <section class="sub-section" id="my-story-section">
-                <h2>My Story</h2>     
-                <div class= "content-container">                
-                    <div class="text-container">
-                        <p>
-                            I am a first generation immigrant and college graduate. 
-                            Originally from Naples, Italy and now residing in Charlotte, North Carolina. 
-                            I have had the blessing to grow up in two 
-                            completely different parts of the world throughout my life. 
-                        </p>
-                        <p>
-                            I have been passionate about technology for as long as I can remember. 
-                            It all started with video-game modding, until I started actually programming 
-                            at the age of 19.
-                        </p>
-                        <p>
-                            Some of my interests outside software development include: hiking, working-out, swimming, 
-                            food tasting and learning about different cultures.
-                        </p>
-                    </div>
-                    <div id="picture_aside">
-                        <div id="picture_container">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--ABOUT ME -> EDUCATION SUBSECTION-->
-            <section class="sub-section" id="education-section">
-                <h2>My Education</h2>
-                <div class="content-container" id="education-container">
-                    <div class="education-subsection" id="cpcc-section">                        
-                        <div class="education-text-container">
-                            <h3>Associates in Arts (A.A)</h3>                                   
-                                <p>Where: Central Piedmont Community College</p>
-                                <p>When: May 2019</p>
-                                <p>GPA: 3.9</p>     
-                        </div>                                 
-                        <div class="education-picture-aside">
-                            <div id="cpcc_picture">
-                            </div>
-                        </div>                   
-                    </div>
-                    <div class="education-subsection" id="uncc-section">                        
-                        <div class="education-text-container">
-                            <h3>Bachelor of Arts (B.A.) in Computer Science</h3>
-                            <p>Concentration: Human Computer Interaction</p>
-                            <p>Minor: Psychology</p>
-                            <p>Where: University of North Carolina at Charlotte</p>
-                            <p>When: December 2022</p>
-                            <p>GPA: 3.5</p>
-                        </div>
-                        <div class="education-picture-aside">
-                            <div id="uncc_picture">
-                            </div>
-                        </div>                   
-                    </div>
-                </div>
-            </section>   
-
-            <!--ABOUT ME -> SKILLS SUBSECTION-->
-            <section class="sub-section" id="skills-section">
-                <h2>My Skills</h2>
-                <div id="skills-subsections-container">
-                    <div class="skills-subsections" id="design-subsection">
-                        <div class="skills-subsections-header" id="design-header">
-                            <div class="skills-subsection-img-container" id="design-image-container">
-                            </div>
-                            <h3>Design</h3>
-                            <p class="skills-header-paragraph" id="design-header-paragraph">
-                                I enjoy designing web pages and mobile experiences.
-                            </p>
-                        </div>
-                        <div class="skills-set" id="hci-fundamentals">
-                            <h3>Human Centered Design Fundamentals</h3>
-                            <ul>
-                                <li>UX / UI Design</li>
-                                <li>UX /UI Research</li>
-                                <li>Usability</li>
-                                <li>Wireframing</li>
-                                <li>Personas</li>
-                                <li>Low Fidelity Prototype Development</li>
-                                <li>High Fidelity Prototype Development</li>
-                                <li>Accessibility</li>
-                            </ul>
-                        </div>
-                        <div class="skills-set" id="design-tools">
-                            <h3>Design Tools</h3>
-                            <ul>
-                                <li>Balsamiq</li>
-                                <li>Figma</li>
-                                <li>Adobe Illustrator</li>
-                            </ul>
-                        </div>
-                        <div class="project-button-container">
-                            <a class="project-button" href="">View My Design <br>Projects</a>
-                        </div>    
-                    </div>
-                    <div class="skills-subsections" id="development-subsection">
-                        <div class="skills-subsections-header" id="development-header">
-                            <div class="skills-subsection-img-container" id="development-image-container">
-                            </div>
-                            <h3>Development</h3>
-                            <p class="skills-header-paragraph" id="development-header-paragraph">
-                                Throughout the years I have developed web pages, websites, apps and video-games.
-                            </p>
-                        </div>
-                        <div class="skills-set" id="programming-languages">
-                            <h3>Languages</h3>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Java</li>
-                                <li>Node.js</li>
-                                <li>Python</li>                                
-                            </ul>
-                        </div>
-                        <div class="skills-set" id="libraries-frameworks">
-                            <h3>Libraries and Frameworks</h3>
-                            <ul>
-                                <li>jQuery</li>
-                                <li>Express.js</li>                                
-                            </ul>
-                        </div>
-                        <div class="skills-set" id="databases">
-                            <h3>Databases</h3>
-                            <ul>
-                                <li>MongoDB with Mongoose</li>                                                          
-                            </ul>
-                        </div>
-                        <div class="skills-set" id="other">
-                            <h3>Other Technologies</h3>
-                            <ul>
-                                <li>VS Code</li>
-                                <li>Git & GitHub</li>                                
-                                <li>GameMaker 2</li>
-                            </ul>
-                        </div>
-                        <div class="project-button-container">
-                            <a class="project-button" href="">View My Development <br>Projects</a>
-                        </div>                        
-                    </div>
-                </div>
-            </section>   
-            
-            
-            
-        </section>
+        </section>    
     </main>
 
 
+    <footer class="container-fluid">
 
-    <footer>
-        <p>&copy2023 Andrea Massa</p>
-        <p>andreamassa1999@gmail.com</p>
-        <div id="footer-links-wrapper">
-            <a href="">LinkedIn</a>
-            <a href="">GitHub</a>
-        </div>
     </footer>
 </body>
 
