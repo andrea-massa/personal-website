@@ -38,15 +38,3 @@
     --writing-font-semibold: 'League Spartan Semibold';
     --writing-font-bold: 'League Spartan Bold';
 }
-
-
-/*Defining Universal Styles*/
-html{
-    overflow-x: hidden;
-}
-    body{
-        margin: 0;
-        width: 100%; 
-        height: 100%;   
-        background-color: var(--main-background-color);    
-    }
