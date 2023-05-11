@@ -10,3 +10,16 @@ main{
         #button-wrapper{
             border: solid red;
         }
+    
+    #about-me-wrapper{
+        border: solid grey;        
+    }
+        #my-story-wrapper{
+            border: solid red;
+        }
+            #story-paragraph-container{
+                border: solid orange;
+            }
+                #story-paragraph-container p{
+                    border: solid yellow;
+                }

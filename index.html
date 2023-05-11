@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/index.css">    
-    <link rel="stylesheet" href="./styles/debug.css">
+    <!-- <link rel="stylesheet" href="./styles/debug.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./scripts/index.js"></script>
     <title>Andrea Massa | Home</title>
@@ -19,8 +19,9 @@
 
 
 <body> 
+  <!-- HEADER WITH NAVBAR -->
     <header class="mb-5">        
-        <nav class="navbar navbar-dark navbar-expand-lg px-2 mx-0">
+        <nav class="navbar navbar-dark navbar-expand-lg px-2">
             <a class="navbar-brand" href="#">LOGO WILL GO HERE</a>
             <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon "></span>
@@ -36,8 +37,11 @@
     </header>
 
 
-    <main class="container mt-5">
-        <section class="row align-items-center mt-3" id="intro-wrapper">
+    <main class="container mt-5 mb-5">
+
+
+        <!-- WELCOME SECTION WITH TWO BUTTONS -->
+        <section class="row align-items-center" id="intro-wrapper">
             <p class="col-12 col-md-6 offset-md-2 my-4" id="intro-paragraph">
                 <span class="hello-world-text">Hello World, </span><span class="welcome-light-text">my name is</span><br>
                 <span class="welcome-bold-text">Andrea Massa</span>
@@ -49,6 +53,37 @@
                 <a class="btn btn-primary btn-xl intro-button mx-2 my-2">Contact Me</a>
             </div>            
         </section>    
+
+
+        <!-- ABOUT ME SECTION STARTS -->
+        <section class="row justify-content-center" id="about-me-wrapper">
+            <h1 class="text-center">About Me</h1>
+
+            <!-- STORY SECTION STARTS -->
+            <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="my-story-wrapper">
+              <h2 class="pt-sm-2 pt-md-3 px-md-3 my-2">My Story</h2>
+              <div class="col-sm-12 col-md-8 px-md-5 my-4" id="story-paragraph-container">
+                <p class="story-paragraph">
+                  I am a first generation immigrant and college graduate. 
+                  Originally from Naples, Italy and now residing in Charlotte, North Carolina. 
+                  I have had the blessing to grow up in two completely different parts of the world throughout my life.
+                </p>
+                <p class="story-paragraph">
+                  I have been passionate about technology for as long as I can remember.
+                  It all started with video-game modding, until I started actually programming 
+                  at the age of 19.
+                </p>
+                <p class="story-paragraph">
+                  Some of my interests outside software development include: hiking, working-out, 
+                  swimming, food tasting and learning about different cultures.
+                </p>
+              </div>
+            </section>            
+
+            <!-- MY EDUCATION SECTION STARTS -->
+
+        </section>
+
     </main>
 
 

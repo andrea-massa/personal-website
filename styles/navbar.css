@@ -10,9 +10,6 @@
     .show{
         padding-right: 0px;
     }        
-        .custom-toggler .navbar-toggler{
-            border: solid yellow;
-        }  
         .nav-item, #active-nav-item, .nav-item:focus{        
             margin-right: 10px;
             margin-left: 10px;
