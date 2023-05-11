@@ -1,0 +1,21 @@
+.navbar{
+    background-color: var(--main-dark-color);    
+}
+    .nav-item, #active-nav-item, .nav-item:focus{        
+        color: var(--main-accent-color);
+        font-family: var(--techy-font-regular);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        text-decoration: underline;        
+        transition: 0.5s;
+    }
+        .nav-item:hover{
+            transition: 0.5s;
+            transform: scale(1.1);
+            color: var(--secondary-accent-color);
+        }
+    #active-nav-item{
+        color: var(--secondary-accent-color);
+        text-decoration: none;
+    }
