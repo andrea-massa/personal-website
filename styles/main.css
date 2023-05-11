@@ -37,8 +37,10 @@
     --writing-font-regular: 'League Spartan Regular';
     --writing-font-semibold: 'League Spartan Semibold';
     --writing-font-bold: 'League Spartan Bold';
+    
 }
 
 body{
     background-color: var(--main-background-color);
 }
+
