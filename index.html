@@ -21,7 +21,7 @@
 <body> 
   <!-- HEADER WITH NAVBAR -->
     <header class="mb-5">        
-        <nav class="navbar navbar-dark navbar-expand-lg px-2">
+        <nav class="navbar navbar-dark navbar-expand-lg px-2 fixed-top">
             <a class="navbar-brand" href="#">LOGO WILL GO HERE</a>
             <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon "></span>
@@ -63,29 +63,34 @@
             <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="my-story-wrapper">
               <h2 class="pt-sm-2 pt-md-3 px-md-3 my-2">My Story</h2>
               <hr>
-              <div class="col-sm-12 col-md-8 px-md-5 my-4" id="story-paragraph-container">
-                <p class="story-paragraph">
-                  I am a first generation immigrant and college graduate. 
-                  Originally from Naples, Italy and now residing in Charlotte, North Carolina. 
-                  I have had the blessing to grow up in two completely different parts of the world throughout my life.
-                </p>
-                <p class="story-paragraph">
-                  I have been passionate about technology for as long as I can remember.
-                  It all started with video-game modding, until I started actually programming 
-                  at the age of 19.
-                </p>
-                <p class="story-paragraph">
-                  Some of my interests outside software development include: hiking, working-out, 
-                  swimming, food tasting and learning about different cultures.
-                </p>
-              </div>
+              <div class="row" id="my-story-content-wrapper">
+                <div class="col-sm-12 col-md-8 px-md-5 my-4" id="story-paragraph-container">
+                  <p class="story-paragraph">
+                    I am a first generation immigrant and college graduate. 
+                    Originally from Naples, Italy and now residing in Charlotte, North Carolina. 
+                    I have had the blessing to grow up in two completely different parts of the world throughout my life.
+                  </p>
+                  <p class="story-paragraph">
+                    I have been passionate about technology for as long as I can remember.
+                    It all started with video-game modding, until I started actually programming 
+                    at the age of 19.
+                  </p>
+                  <p class="story-paragraph">
+                    Some of my interests outside software development include: hiking, working-out, 
+                    swimming, food tasting and learning about different cultures.
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-4 px-md-2 my-4" id = "story-img-container">
+                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="uncc-image">
+                </div>
+              </div>              
             </section>            
 
             <!-- MY EDUCATION SECTION STARTS -->
             <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="education-wrapper">
               <h2 class="pt-sm-12 col-md-8 px-md-5 my-4">My Education</h2>                            
               <hr>
-              <div class="row my-3 mx-2 d-flex flex-row-reverse education-section-subsection" id="cpcc-section">
+              <div class="row my-3 mx-md-2 d-flex flex-row-reverse education-section-subsection" id="cpcc-section">
                 <div class="col-sm-12 col-md-7 education-section-subsection-content text-md-end">
                   <h3>Associate in Arts(A.A.)</h3>                  
                   <p>Where: Central Piedmont Community College</p>
@@ -96,7 +101,7 @@
                   <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="uncc-image">
                 </div>
               </div>
-              <div class="row mx-3 education-section-subsection" id="uncc-section">
+              <div class="row my-3 mx-md-2 education-section-subsection" id="uncc-section">
                 <div class="col-sm-12 col-md-7 education-section-subsection-content">
                   <h3>Bachelor of Arts(B.A.) in Computer Science</h3>                  
                   <p>Concentration: Human Computer Interaction</p>
