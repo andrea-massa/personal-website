@@ -23,3 +23,15 @@ main{
                 #story-paragraph-container p{
                     border: solid yellow;
                 }
+        #education-wrapper{
+            border: solid red;
+        }
+            .education-section-subsection{
+                border: solid orange;
+            }
+                .education-section-subsection-content{
+                    border: solid yellow;
+                }
+                .education-section-subsection-image-container{
+                    border: solid yellow;
+                }
