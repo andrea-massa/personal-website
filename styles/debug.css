@@ -44,3 +44,23 @@ main{
                 .education-section-subsection-image-container{
                     border: solid yellow;
                 }
+        #skills-wrapper{
+            border: solid red;
+        }
+            #content-wrapper{
+                border: solid orange;
+            }
+                .skills-subsection{
+                    border: solid yellow;
+                }
+                    .skills-subsection-header{
+                        border: solid blue;
+                    }
+                    .skills-subsection-content{
+                        border: solid blue;       
+                    }
+                    .skills-subsection-button-wrapper{
+                        border: solid blue;
+                        position: relative;
+                        top: 0px;
+                    }

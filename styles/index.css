@@ -31,7 +31,7 @@
             font-size: 32px;
             line-height: 29px;
         }
-        .intro-button{
+        .intro-button, .projects-button{
             font-family: var(--techy-font-regular);
             font-weight: 400;
             font-size: 22px;
@@ -44,16 +44,16 @@
             padding: 12px 40px 12px 40px;           
             transition: 0.5s;
         }
-            .btn.intro-button:hover{
+            .btn.intro-button:hover, .projects-button:hover{
                 transition: 0.5s;
                 background-color: var(--secondary-accent-color);                    
                 box-shadow: none;
                 transform: scale(1.1);
             }
-            .btn.intro-button:focus{
+            .btn.intro-button:focus  .projects-button:focus{
                 background-color: var(--secondary-accent-color);                                    
             }
-            .btn.intro-button:active{
+            .btn.intro-button:active,  .projects-button:active{
                 background-color: var(--secondary-accent-color);            
             }        
 
@@ -131,4 +131,60 @@
                 .education-section-subsection-image-container img{
                     width: 50%;                       
                 }
+            
+            /* SKILLS SUBSECTION */
+            #skills-wrapper{
+                /* border: solid red; */
+            }
+                #content-wrapper{
+                    /* border: solid orange;                     */
+                }
+                    .skills-subsection{
+                        color: var(--main-text-color);
+                    }
+                        .skills-subsection-header{
+                            margin-bottom: 50px;
+                        }
+                            .skills-subsection-header img{
+                                width: 100px;
+                            }
+                            .skills-subsection-header h3{                                
+                                font-family: var(--writing-font-semibold);
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 30px;
+                                line-height: 28px;                                                                
+                                text-align: center;
+                            }
+                            .skills-subsection-header p{
+                                font-family: var(--writing-font-regular);
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 18px;
+                            }
+                        /* .skills-subsection-content{
+                            
+                        } */
+                            .skills-subsection-content-subsection{
+                                margin-bottom: 35px;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+                            .skills-subsection-content h4{
+                                font-family: var(--writing-font-semibold);
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 18px;
+                                margin-bottom: 0;
+                            }
+                                .skills-subsection-content ul{                                    
+                                    list-style: square;                                    
+                                    font-family: var(--writing-font-regular);
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 18px;
+                                }
             
