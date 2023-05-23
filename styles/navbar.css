@@ -1,6 +1,9 @@
 .navbar{
     background-color: var(--main-dark-color);       
-}
+}    
+        #bitmoji-navbar{
+            width: 75px;
+        }
     .collapsing > *{
         display: none;
     }

@@ -23,7 +23,9 @@
   <!-- HEADER WITH NAVBAR -->
     <header class="mb-5">        
         <nav class="navbar navbar-dark navbar-expand-lg px-2 fixed-top">
-            <a class="navbar-brand" href="#">LOGO WILL GO HERE</a>
+            <a class="navbar-brand" href="/index.html">
+              <img class="img-fluid" id="bitmoji-navbar" src="./assets/images/bitmojis/bitmoji-smile.png" alt="bitmoji">
+            </a>
             <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon "></span>
             </button>
@@ -42,13 +44,16 @@
 
 
         <!-- WELCOME SECTION WITH TWO BUTTONS -->
-        <section class="row align-items-center" id="intro-wrapper">
-            <p class="col-12 col-md-6 offset-md-2 my-4" id="intro-paragraph">
+        <section class="row align-items-center justify-content-center" id="intro-wrapper">
+            <p class="col-12 col-md-6 my-4" id="intro-paragraph">
                 <span class="hello-world-text">Hello World, </span><span class="welcome-light-text">my name is</span><br>
                 <span class="welcome-bold-text">Andrea Massa</span>
                 <span class="welcome-light-text">I am a </span><span class="welcome-bold-text">Software Developer</span><br>
                 <span class="welcome-light-text"> and </span><span class="welcome-bold-text">UX/UI Designer</span>
             </p>            
+            <div class="col-12 col-md-4 my-4 ms-md-3 ms-xl-5 text-center text-xl-start" id="bitmoji-intro-wrapper">
+                <img class="img-fluid" src="./assets/images/bitmojis/bitmoji-laptop.png" alt="bitmoji-laptop" id="bitmoji-intro">
+            </div>
             <div class="col-md-12 text-center my-3" id="button-wrapper">
                 <a class="btn btn-primary btn-xl intro-button mx-2 my-2">Projects</a>
                 <a class="btn btn-primary btn-xl intro-button mx-2 my-2">Contact Me</a>
@@ -82,16 +87,16 @@
                   </p>
                 </div>
                 <div class="col-sm-12 col-md-4 px-md-2 my-4" id = "story-img-container">
-                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="uncc-image">
+                  <img class="img-fluid mx-auto d-block mt-2" src="./assets/images/picture-of-me-min-PhotoRoom-PhotoRoom.png" alt="my-image" id="photo-of-me">
                 </div>
               </div>              
             </section>            
 
             <!-- MY EDUCATION SECTION STARTS -->
             <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="education-wrapper">
-              <h2 class="pt-sm-12 col-md-8 px-md-5 my-4">My Education</h2>                            
+              <h2 class="pt-sm-12 col-md-8 px-md-5">My Education</h2>                            
               <hr>
-              <div class="row my-3 mx-md-2 d-flex flex-row-reverse education-section-subsection" id="cpcc-section">
+              <div class="row mx-md-2 d-flex flex-row-reverse education-section-subsection" id="cpcc-section">
                 <div class="col-sm-12 col-md-7 education-section-subsection-content text-md-end">
                   <h3>Associate in Arts(A.A.)</h3>                  
                   <p>Where: Central Piedmont Community College</p>
@@ -99,10 +104,10 @@
                   <p>GPA: 3.9</p>
                 </div>
                 <div class="col-sm-12 col-md-5 education-section-subsection-image-container">
-                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="uncc-image">
+                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/images/icons/education.png" alt="cpcc-image">
                 </div>
               </div>
-              <div class="row my-3 mx-md-2 education-section-subsection" id="uncc-section">
+              <div class="row mx-md-2 my-1 education-section-subsection" id="uncc-section">
                 <div class="col-sm-12 col-md-7 education-section-subsection-content">
                   <h3>Bachelor of Arts(B.A.) in Computer Science</h3>                  
                   <p>Concentration: Human Computer Interaction</p>
@@ -112,19 +117,19 @@
                   <p>GPA: 3.5</p>
                 </div>
                 <div class="col-sm-12 col-md-5 education-section-subsection-image-container text-center">
-                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="uncc-image">
+                  <img class="img-thumbnail rounded mx-auto d-block mt-2" src="./assets/images/icons/bachelor.png" alt="uncc-image">
                 </div>
               </div>
             </section>
 
             <!-- MY SKILLS SECTION STARTS -->
-            <section class="col-11 col-lg-9 mt-3 mx-auto about-me-subsection" id="skills-wrapper">
+            <section class="col-11 col-xl-9 mt-3 mx-auto about-me-subsection" id="skills-wrapper">
               <h2 class="pt-xs-12 col-sm-8 px-sm-5 my-4">My Skills</h2>                                                        
               <hr>
                 <div class="row mx-3" id="content-wrapper">
-                  <div class="col-12 col-md-6 skills-subsection" id="design-section">
+                  <div class="col-12 col-md-6 skills-subsection my-md-0" id="design-section">
                       <div class="mx-2 skills-subsection-header">
-                          <img class="img-thumbnail rounded mx-auto d-block my-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="design-image">
+                          <img class="img-thumbnail rounded mx-auto d-block my-2" src="./assets/images/icons/web-design.png" alt="design-image">
                           <h3 >Design</h3>
                           <p>I enjoy designing web pages and mobile experiences.</p>
                       </div>
@@ -155,9 +160,9 @@
                           <a class="btn btn-primary btn-md projects-button my-2 my-xl-5">My Design Projects</a>
                       </div>
                   </div>
-                  <div class="col-12 my-5 my-md-0 col-md-6 skills-subsection" id="design-section">
+                  <div class="col-12 my-md-0 col-md-6 skills-subsection" id="develpoment-section">
                       <div class="mx-2 skills-subsection-header">
-                          <img class="img-thumbnail rounded mx-auto d-block my-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="design-image">
+                          <img class="img-thumbnail rounded mx-auto d-block my-2" src="./assets/images/icons/web-development.png" alt="design-image">
                           <h3 >Development</h3>
                           <p>Throughout the years I have developed web pages, websites, apps and video-games.</p>
                       </div>
@@ -216,10 +221,10 @@
       <p>andreamassa1999@gmail.com</p>
       <div class="row justify-content-center d-flex" id="footer-links-container">
           <a class="col-4 footer-link" id="linkedin-link" href="https://www.linkedin.com/in/andrea-massa-48381115b/">
-              <img class="img-thumbnail rounded my-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="linked-in-image">
+              <img class="img-fluid rounded my-2" src="./assets/images/icons/linkedin-logo.png" alt="linked-in-image">
           </a>            
           <a class="col-4 footer-link" id="github-link" href="https://github.com/andrea-massa">
-              <img class="img-thumbnail rounded my-2" src="./assets/placeholder-images/placeholderProfile.jpg" alt="github-image">
+              <img class="img-fluid my-2" src="./assets/images/icons/github.png" alt="github-image">
           </a>
       </div>  
     </footer>   

@@ -31,6 +31,13 @@
             font-size: 32px;
             line-height: 29px;
         }
+    #bitmoji-intro-wrapper{            
+        margin: 0;
+    }
+        #bitmoji-intro-wrapper img{
+            width: 200px;
+            margin: auto;            
+        }
         .intro-button, .projects-button{
             font-family: var(--techy-font-regular);
             font-weight: 400;
@@ -103,14 +110,27 @@
                 line-height: 23px;
                 color: var(--main-text-color);
             }
-                #story-paragraph-container p{
-                    margin-bottom: 50px;
+                    #story-paragraph-container p{
+                        margin-bottom: 50px;
+                    }
+                    #story-paragraph-container :nth-child(3){
+                        margin-bottom: 0px;
+                    }
+                #story-img-container{
+                    margin: 0px;
+                    opacity: 75%;
                 }
-                #story-paragraph-container :nth-child(3){
-                    margin-bottom: 0px;
-                }
+                    #story-img-container img{
+                        width: 250px;
+                        border: solid var(--main-text-color);
+                        border-radius: 20px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
 
             /* EDUCATION SUBSECTION */
+            .education-section-subsection{
+                margin-bottom: 100px;
+            }
             .education-section-subsection-content{
                 color: var(--main-text-color);                
             }
@@ -129,18 +149,15 @@
                     margin-left: 20px;
                 }
                 .education-section-subsection-image-container img{
-                    width: 50%;                       
+                    width: 100px;                       
                 }
             
             /* SKILLS SUBSECTION */
-            #skills-wrapper{
-                /* border: solid red; */
-            }
-                #content-wrapper{
-                    /* border: solid orange;                     */
-                }
                     .skills-subsection{
-                        color: var(--main-text-color);
+                        color: var(--main-text-color);                        
+                    }
+                    #design-section{
+                        margin-bottom: 150px;
                     }
                         .skills-subsection-header{
                             margin-bottom: 50px;
