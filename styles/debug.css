@@ -61,6 +61,5 @@ main{
                     }
                     .skills-subsection-button-wrapper{
                         border: solid blue;
-                        position: relative;
-                        top: 0px;
+                        position: relative;                        
                     }

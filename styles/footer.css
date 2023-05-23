@@ -1,0 +1,23 @@
+footer{
+    background-color: var(--main-dark-color);
+}
+    footer p {    
+        margin: 0 auto 0 auto;
+        font-family: var(--writing-font-regular);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--main-text-color)
+    }
+    footer p:nth-child(1){
+        margin-top: 10px;
+    }
+    #footer-links-container{
+        margin: 10px auto 10px auto;        
+        width: 50%;
+    }
+        footer .footer-link{                                    
+            margin: 10px;           
+            width: 60px;
+        }
