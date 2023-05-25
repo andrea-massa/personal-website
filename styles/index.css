@@ -204,3 +204,43 @@
                                     font-size: 18px;
                                     line-height: 18px;
                                 }
+
+
+
+                                
+
+/* SCROLL ANIMATIONS */
+#intro-paragraph.hidden{
+    transition: 1.2s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+#intro-paragraph.show{
+    transition: 1.2s;    
+    filter: blur(0px);
+}
+
+#bitmoji-intro-wrapper.hidden{
+    transition: 1.2s;   
+    transform: translateY(100%);    
+    opacity: 0; 
+}
+#bitmoji-intro-wrapper.show{
+    transition: 1.2s;
+    opacity: 1;  
+}
+
+.about-me-subsection.hidden{
+    transition: 1.2s;
+    filter: blur(5px);
+    transform: translateX(100%);
+    opacity: 0;
+}
+#education-wrapper.hidden{
+    transform: translateX(-100%);
+}
+.about-me-subsection.show{
+    transition: 1.2s;
+    filter: blur(0);
+    opacity: 1;
+}

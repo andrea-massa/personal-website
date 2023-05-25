@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <!-- <link rel="stylesheet" href="./styles/debug.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="./scripts/index.js"></script>
+    <script defer src="./scripts/index.js"></script>
     <title>Andrea Massa | Home</title>
 </head>
 
@@ -42,16 +42,15 @@
 
     <main class="container mt-5 mb-5">
 
-
         <!-- WELCOME SECTION WITH TWO BUTTONS -->
         <section class="row align-items-center justify-content-center" id="intro-wrapper">
-            <p class="col-12 col-md-6 my-4" id="intro-paragraph">
+            <p class="col-12 col-md-6 my-4 hidden" id="intro-paragraph">
                 <span class="hello-world-text">Hello World, </span><span class="welcome-light-text">my name is</span><br>
                 <span class="welcome-bold-text">Andrea Massa</span>
                 <span class="welcome-light-text">I am a </span><span class="welcome-bold-text">Software Developer</span><br>
                 <span class="welcome-light-text"> and </span><span class="welcome-bold-text">UX/UI Designer</span>
             </p>            
-            <div class="col-12 col-md-4 my-4 ms-md-3 ms-xl-5 text-center text-xl-start" id="bitmoji-intro-wrapper">
+            <div class="col-12 col-md-4 my-4 ms-md-3 ms-xl-5 text-center text-xl-start hidden" id="bitmoji-intro-wrapper">
                 <img class="img-fluid" src="./assets/images/bitmojis/bitmoji-laptop.png" alt="bitmoji-laptop" id="bitmoji-intro">
             </div>
             <div class="col-md-12 text-center my-3" id="button-wrapper">
@@ -66,7 +65,7 @@
             <h1 class="text-center">About Me</h1>
 
             <!-- STORY SECTION STARTS -->
-            <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="my-story-wrapper">
+            <section class="col-11 col-xl-9 mt-3 about-me-subsection hidden" id="my-story-wrapper">
               <h2 class="pt-sm-2 pt-md-3 px-md-3 my-2">My Story</h2>
               <hr>
               <div class="row" id="my-story-content-wrapper">
@@ -93,7 +92,7 @@
             </section>            
 
             <!-- MY EDUCATION SECTION STARTS -->
-            <section class="col-11 col-xl-9 mt-3 about-me-subsection" id="education-wrapper">
+            <section class="col-11 col-xl-9 mt-3 about-me-subsection hidden" id="education-wrapper">
               <h2 class="pt-sm-12 col-md-8 px-md-5">My Education</h2>                            
               <hr>
               <div class="row mx-md-2 d-flex flex-row-reverse education-section-subsection" id="cpcc-section">
@@ -123,7 +122,7 @@
             </section>
 
             <!-- MY SKILLS SECTION STARTS -->
-            <section class="col-11 col-xl-9 mt-3 mx-auto about-me-subsection" id="skills-wrapper">
+            <section class="col-11 col-xl-9 mt-3 mx-auto about-me-subsection hidden" id="skills-wrapper">
               <h2 class="pt-xs-12 col-sm-8 px-sm-5 my-4">My Skills</h2>                                                        
               <hr>
                 <div class="row mx-3" id="content-wrapper">
