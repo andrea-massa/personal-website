@@ -1,44 +1,39 @@
-nav{        
-    background-color: var(--main-dark-color);
-    width: 100vw;    
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-    #logo_container{
-        margin: auto auto auto 2.5%;
-        width: 75px;
-        height: 75px;        
-        text-align: center;
-    }
-        #logo{                                 
-            border: solid violet;      
-            background-image: url('/assets/placeholder-images/placeholderProfile.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 100%;            
+.navbar{
+    background-color: var(--main-dark-color);       
+}    
+        #bitmoji-navbar{
+            width: 75px;
         }
-    #links_container{
-        margin: auto 5% auto auto;
-        width: 15%;       
+    .collapsing > *{
+        display: none;
+    }
+    .collapse{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;        
+        justify-content: end;
+        padding-right: 30px;   
+        transition: 0.5s;     
     }
-        .nav_link{
-            margin: auto 10px auto 10px;
+    .show{
+        padding-right: 0px;
+        transition: 0.5s;
+    }        
+        .nav-item, #active-nav-item, .nav-item:focus{        
+            margin-right: 10px;
+            margin-left: 10px;
             color: var(--main-accent-color);
-            font-family: var(--techy-font-semibold);
-            font-size: 16px;
-            text-decoration: none;
+            font-family: var(--techy-font-regular);
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18px;
+            text-decoration: underline;        
+            transition: 0.5s;
         }
-        .nav_link:hover{
-            transition: font-size 0.2s linear, color 0.5s linear, transform 0.2s linear;
-            transform: translate(0, -5px);
-            text-decoration: underline;
+            .nav-item:hover{
+                transition: 0.5s;
+                transform: scale(1.1);
+                color: var(--secondary-accent-color);
+            }
+        #active-nav-item{
             color: var(--secondary-accent-color);
-            font-size: 18px;
+            text-decoration: none;
         }

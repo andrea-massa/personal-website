@@ -1,268 +1,246 @@
-main{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;        
+/* 
+    INTRO SECTION WITH WELCOMING MESSAGE AND BUTTONS 
+    TO THE MAIN PARTS OF THE WEBSITE
+*/
+#intro-wrapper{
+    margin-top: 20vh;
+    margin-bottom: 15vh;
 }
-    .main-section{
-        min-width: 50%;
-        max-width: 75%;
-        margin: auto;
-        margin-top: 15vh;
-
+    #intro-paragraph{    
+        color: var(--main-dark-color);
     }
-
-
-
-/*  WELCOME SECTION    */
-        #welcome_section{            
-            position: relative;
-            top: 25px;
+        .hello-world-text{                
+            font-family: var(--techy-font-regular);
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 31px;
         }
-            #welcome_text{
-                line-height: 38px;
-                font-size: 32px;
-                width: 60%;
-                color: var(--main-dark-color);
-            }
-                #helloworld_text{
-                    font-family: var(--techy-font-regular);
-                }
-                .lightWelcomeText{
-                    font-family: var(--writing-font-regular);
-                }
-                .boldWelcomeText{
-                    font-family: var(--writing-font-bold);
-                }
-            #links-wrapper{    
-                position: relative;
-                top: 30px;        
-                margin: auto;            
-                min-width: 60%;
-                max-width: 80%;
-                height: 50px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;   
-            }
-                #links-wrapper a{                    
-                    min-width: 25%;
-                    max-width: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;                                    
-                    border: 1px solid var(--main-dark-color);
-                    background-color: var(--main-accent-color);     
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    color: var(--main-text-color);               
-                    text-decoration: none;
-                    font-family: var(--techy-font-regular);
-                    font-size: 15px;                
-                }  
-                #links-wrapper a:hover{
-                    transition: background-color 0.2s linear, transform 0.3s linear, box-shadow 0.3s linear;
-                    text-decoration: underline;
-                    background-color: var(--secondary-accent-color);
-                    transform: translate(0, -7.5px) scale(1.1);
-                    box-shadow: none;
-                }
-        
-
-
-/*  ABOUT SECTION   */
-        #about-section{
-            position: relative;
-            top: 25px;
+        .welcome-bold-text{
+            font-family: var(--writing-font-bold);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 39px;
+            letter-spacing: 0.1em;
+        }
+        .welcome-light-text{
+            font-family: var(--writing-font-regular);
+            font-style: normal;
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 29px;
+        }
+    #bitmoji-intro-wrapper{            
+        margin: 0;
+    }
+        #bitmoji-intro-wrapper img{
+            width: 200px;
+            margin: auto;            
+        }
+        .intro-button, .projects-button{
+            font-family: var(--techy-font-regular);
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 29px; 
             color: var(--main-text-color);
+            background-color: var(--main-accent-color);
+            border: 1px solid var(--main-dark-color);
+            border-radius: 1px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+            padding: 12px 40px 12px 40px;           
+            transition: 0.5s;
         }
-            #about-section h1{
-                font-family: var(--writing-font-bold);                
-                font-size: 40px;                
-                line-height: 37px;                                
-                color: var(--main-dark-color);
-                text-align: center;                                
+            .btn.intro-button:hover, .projects-button:hover{
+                transition: 0.5s;
+                background-color: var(--secondary-accent-color);                    
+                box-shadow: none;
+                transform: scale(1.1);
             }
-            .sub-section{
-                max-width: 85%;
-                min-width: 80%;
-                margin: 5vh auto 5vh auto;
-                background-color: var(--secondary-background-color);
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border-radius: 40px;                                
-            }                
-                #about-section h2{                    
-                    margin: 20px auto 20px auto;
-                    width: 90%;        
-                    padding: 35px 10px 10px 10px;                                  
-                    font-family: var(--writing-font-semibold);  
-                    font-style: normal;                    
-                    font-size: 30px;
-                    line-height: 28px;                    
-                    letter-spacing: 0.2em;
-                    text-transform: uppercase;                    
-                    border-bottom: solid 2px var(--main-text-color)
-                }   
+            .btn.intro-button:focus  .projects-button:focus{
+                background-color: var(--secondary-accent-color);                                    
+            }
+            .btn.intro-button:active,  .projects-button:active{
+                background-color: var(--secondary-accent-color);            
+            }        
 
-                /*MY STORY SUB-SECTION*/        
-                .content-container{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
-                }         
-                    .text-container{          
-                        display: inline-block;          
-                        width: 40%;   
-                        height: 100%;
-                        padding: 0 0 5% 5%;
-                        font-family: var(--writing-font-regular);  
-                        font-size: 20px;
-                    }
-                        .text-container p{
-                            margin: 25px auto 25px auto;
-                        }
-                    #picture_aside{                                                                                          
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        width: 40%;                    
-                        height: 100%;    
-                        margin: auto 0 auto 0;                                        
-                    }
-                        #picture_container{               
-                            border-radius: 50%;         
-                            background-image: url('/assets/placeholder-images/placeholderProfile.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            width: 100%;
-                            height: 300px;
-                        }            
 
-                /*MY EDUCATION SUB-SECTION*/
-                #education-container{                    
-                    flex-direction: column;
+
+/* ABOUT ME SECTIONS */
+#about-me-wrapper{
+    margin-top: 10vh;
+}
+#about-me-wrapper h1{
+    font-family: var(--writing-font-bold);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;    
+    color: var(--writing-font-regular)
+}
+    .about-me-subsection{
+        background-color: var(--secondary-background-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        padding: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+        .about-me-subsection h2{
+            font-family: var(--writing-font-semibold);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 28px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--main-text-color);       
+        }
+        .about-me-subsection hr{
+            border: 2px solid var(--main-text-color);
+            opacity: 100%;
+            margin-top: 0px;
+        }
+            /* STORY SUBSECTION */
+            #story-paragraph-container{
+                font-family: var(--writing-font-regular);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: var(--main-text-color);
+            }
+                    #story-paragraph-container p{
+                        margin-bottom: 50px;
+                    }
+                    #story-paragraph-container :nth-child(3){
+                        margin-bottom: 0px;
+                    }
+                #story-img-container{
+                    margin: 0px;
+                    opacity: 75%;
                 }
-                    .education-subsection{
-                        width: 85%;
-                        margin: 2.5% auto 2.5% auto;
-                        display: flex;   
-                        flex-direction: column;                                             
-                    }   
-                        .education-text-container h3{
-                            font-family: var(--writing-font-semibold);
-                            color: var(--main-text-color);
-                            font-size: 22px;
-                            line-height: 26px;                            
-                            text-decoration: underline;
-                            margin-bottom: 3px;
-                        }        
-                        .education-text-container p{
-                            font-family: var(--writing-font-regular);
-                            color: var(--main-text-color);
-                            font-size: 18px;
-                            line-height: 18px;
-                            text-indent: 50px;
-                            margin: 2px;
-                        }  
-                        .education-picture-aside{
-                            border-radius: 50%;
-                            margin: auto;                            
-                        }                                                           
-                    /*CPCC SECTION*/
-                    #cpcc-section{
-                        flex-direction: row-reverse;                          
+                    #story-img-container img{
+                        width: 250px;
+                        border: solid var(--main-text-color);
+                        border-radius: 20px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                     }
-                        #cpcc-section .education-text-container{
-                            text-align: right;
-                        }
-                    /*UNCC SECTION*/
-                    #uncc-section{
-                        flex-direction: row;                            
-                    }
-                        #uncc-section .education-text-container{
-                            text-align: left;
-                        }                            
 
-                /*MY SKILLS SECTION*/
-                #skills-subsections-container{
-                    display: flex;
-                    flex-direction: row;
-                    max-width: 90%;
-                    min-width: 80%;
-                    margin: auto 5% auto 5%;
+            /* EDUCATION SUBSECTION */
+            .education-section-subsection{
+                margin-bottom: 100px;
+            }
+            .education-section-subsection-content{
+                color: var(--main-text-color);                
+            }
+                .education-section-subsection-content h3{
+                    font-family: var(--writing-font-semibold);
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 26px;                    
                 }
-                    .skills-subsections{
-                        display: flex;
-                        flex-direction: column;    
-                        justify-content: space-between;                   
-                        width: 50%;
+                .education-section-subsection-content p{
+                    font-family: var(--writing-font-regular);
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 18px;     
+                    margin-bottom: 0px;                                                                           
+                    margin-left: 20px;
+                }
+                .education-section-subsection-image-container img{
+                    width: 100px;                       
+                }
+            
+            /* SKILLS SUBSECTION */
+                    .skills-subsection{
+                        color: var(--main-text-color);                        
                     }
-                        .skills-subsections .skills-subsections-header{
-                            width: 80%;
-                            margin: 2% auto 30px auto;
+                    #design-section{
+                        margin-bottom: 150px;
+                    }
+                        .skills-subsection-header{
+                            margin-bottom: 50px;
                         }
-                            .skills-subsections .skills-subsections-header .skills-subsection-img-container{
-                                margin: auto;
-                                background-image: url('/assets/placeholder-images/placeholderProfile.jpg');
-                                width: 70px;
-                                height: 20px;
+                            .skills-subsection-header img{
+                                width: 100px;
                             }
-                            .skills-subsections .skills-subsections-header h3{
+                            .skills-subsection-header h3{                                
                                 font-family: var(--writing-font-semibold);
-                                font-size: 25px;
+                                font-style: normal;
                                 font-weight: 600;
-                                line-height: 28px;
-                                color: var(--main-text-color);
-                                text-align: center;                            
+                                font-size: 30px;
+                                line-height: 28px;                                                                
+                                text-align: center;
                             }
-                            .skills-subsections .skills-subsections-header .skills-header-paragraph{
-                                margin: 7.5px auto 10% auto;
+                            .skills-subsection-header p{
                                 font-family: var(--writing-font-regular);
-                                font-size: 20px;
-                                font-weight: 200;
-                                line-height: 16px;
-                                color: var(--main-text-color);                            
-                            }
-                        .skills-subsections .skills-set{                            
-                            text-align: left;
-                            margin: 2% auto 2.5% auto;    
-                            width: 70%;
-                        }
-                            .skills-set h3{
-                                font-family: var(--writing-font-semibold);
-                                color: var(--main-text-color);
-                                font-size: 22px;
-                                font-weight: 400;
-                                line-height: 18px;
-                                text-align: left;
-                                margin-bottom: 5px;
-                            }
-                            .skills-set ul{
-                                margin-top: 0px;                                
-                                font-family: var(--writing-font-regular);
-                                color: var(--main-text-color);
+                                font-style: normal;
+                                font-weight: 300;
                                 font-size: 18px;
-                                font-weight: 300;                                
+                                line-height: 18px;
                             }
-                        .skills-subsections .project-button-container{
-                            display: flex;
-                            min-width: 60%;
-                            max-width: 80%;
-                            justify-content: center;
-                            align-items: center;                                    
-                            background-color: yellow;
-                            margin: 60px auto 20px auto;                            
-                        }
-                            .skills-subsections .project-button-container .project-button{     
-                                width: 100%;
-                                text-align: center;                                                       
-                                font-family: var(--techy-font-regular);
-                                font-size: 22px;                           
-                                color: var(--main-text-color);     
-                                background-color: var(--secondary-accent-color);                                
-                                border: 1px solid var(--main-text-color);
-                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                                text-decoration: none;
-                                padding: 22px 32px 22px 32px;
+                        /* .skills-subsection-content{
+                            
+                        } */
+                            .skills-subsection-content-subsection{
+                                margin-bottom: 35px;
+                                margin-left: auto;
+                                margin-right: auto;
                             }
+                            .skills-subsection-content h4{
+                                font-family: var(--writing-font-semibold);
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 18px;
+                                margin-bottom: 0;
+                            }
+                                .skills-subsection-content ul{                                    
+                                    list-style: square;                                    
+                                    font-family: var(--writing-font-regular);
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 18px;
+                                }
+
+
+
+
+
+/* SCROLL ANIMATIONS */
+#intro-paragraph.hidden{
+    transition: 1.2s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+#intro-paragraph.show{
+    transition: 1.2s;    
+    filter: blur(0px);
+}
+
+#bitmoji-intro-wrapper.hidden{
+    transition: 1.2s;   
+    transform: translateY(100%);    
+    opacity: 0; 
+}
+#bitmoji-intro-wrapper.show{
+    transition: 1.2s;
+    opacity: 1;  
+}
+
+.about-me-subsection.hidden{
+    transition: 1.2s;
+    filter: blur(5px);
+    transform: translateX(100%);
+    opacity: 0;
+}
+#education-wrapper.hidden{
+    transform: translateX(-100%);
+}
+.about-me-subsection.show{
+    transition: 1.2s;
+    filter: blur(0);
+    opacity: 1;
+}
