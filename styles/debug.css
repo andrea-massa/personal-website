@@ -63,3 +63,18 @@ main{
                         border: solid blue;
                         position: relative;                        
                     }
+
+
+/* PROJECT PAGE */
+.project-section{
+    border: solid red;    
+}
+    .project-section-header{
+        border: solid orange
+    }   
+        .project-section-header .header-image-container{
+            border: solid darkorange;
+        }
+        .project-section-header img, h2{
+            border: solid yellow
+        }

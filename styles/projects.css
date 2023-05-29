@@ -1,0 +1,36 @@
+main{
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+h1{
+    font-family: var(--writing-font-bold);
+    color: var(--secondary-dark-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;    
+}
+    .project-section{
+        width: 80%;        
+    }
+        /* .project-section-header{
+            
+        }
+            .project-section-header .header-image-container{                                
+
+            } */
+                .project-section-header .header-image-container img{
+                    width: 60px;                    
+                }
+            .project-section-header h2{
+                color: var(--main-dark-color);
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+                .project-section-header h2 .design-font{
+                    font-family: var(--writing-font-semibold);
+                }
+                .project-section-header h2 .development-font{
+                    font-family: var(--techy-font-semibold);
+                }
