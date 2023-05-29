@@ -10,6 +10,10 @@ h1{
     font-size: 40px;
     line-height: 37px;    
 }
+
+
+
+    /* PROJECT SECTION CONTAINERS: DESIGN & DEVELOPMENT SECTION, DESIGN SECTION */
     .project-section{
         width: 80%;        
     }
@@ -17,7 +21,7 @@ h1{
             
         }
             .project-section-header .header-image-container{                                
-
+                
             } */
                 .project-section-header .header-image-container img{
                     width: 60px;                    
@@ -34,3 +38,5 @@ h1{
                 .project-section-header h2 .development-font{
                     font-family: var(--techy-font-semibold);
                 }
+                
+            
