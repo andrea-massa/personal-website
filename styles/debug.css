@@ -75,6 +75,27 @@ main{
         .project-section-header .header-image-container{
             border: solid darkorange;
         }
-        .project-section-header img, h2{
-            border: solid yellow
+            .project-section-header img, h2{
+                border: solid yellow
+            }
+    .projects-container{
+        border: solid orange;
+    }
+        .project{
+            border: solid darkorange;
         }
+            .project-title{
+                border: solid yellow;
+            }
+            .project-tech-container{
+                border: solid yellow;
+            }
+                .project-tech{
+                    border: solid red;
+                }
+            .project-image-container{
+                border: solid yellow;
+            }
+                .project-image{
+                    border: solid red;
+                }
