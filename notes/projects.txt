@@ -3,7 +3,7 @@ PROJECTS TO INCLUDE:
 DESIGN & DEVELOPMENT SECTION
     1.
          Title: 
-            My personal website
+            My Personal Website
          Tech Used: 
             HTML, CSS, JavaScript, Boostrap, JQuery, Wireframing, Figma
          Description: 

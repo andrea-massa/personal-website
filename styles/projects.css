@@ -4,7 +4,7 @@ main{
 }
 h1{
     font-family: var(--writing-font-bold);
-    color: var(--secondary-dark-color);
+    color: var(--main-dark-color);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -41,9 +41,9 @@ h1{
 
 
         /* SINGLE PROJECTS STYLING */
-        .projects-container{
-            /* border: solid orange; */
-        }
+        /* .projects-container{
+            border: solid orange;
+        } */
             .project{
                 background-color: var(--secondary-background-color);
                 border-width: 0.5px 0.5px 0px 0.5px;
@@ -65,6 +65,7 @@ h1{
                     text-align: center;
                 }
                     .project-tech{
+                        display: inline-block;
                         text-align: center;
                         background: var(--secondary-accent-color);                                                
                         border-color: var(--secondary-accent-color);
@@ -72,16 +73,17 @@ h1{
                         border-radius: 40px;
                         font-family: var(--techy-font-regular);
                         font-style: normal;
-                        font-weight: 200;
+                        font-weight: 100;
                         font-size: 15px;
                         line-height: 14px;
-                        padding: 2px 5px 2px 5px;                                                                        
+                        padding: 5px 8px 5px 8px;                                                                                                                    
+                        margin: 2.5px 2px 2.5px 2px;
                     }
                 /* .project-image-container{                    
                     
                 } */
                     /* .project-image{                                                
-                        border: solid red;                        
+                        border: solid red;                       
                     } */
                     .project-github-button{
                         font-family: var(--techy-font-regular);
