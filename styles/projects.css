@@ -9,20 +9,22 @@ h1{
     font-weight: 700;
     font-size: 40px;
     line-height: 37px;    
+    margin-bottom: 50px;
 }
 
 
 
     /* PROJECT SECTION CONTAINERS: DESIGN & DEVELOPMENT SECTION, DESIGN SECTION */
     .project-section{
-        width: 80%;        
+        margin-top: 100px;     
     }
-        /* .project-section-header{
-            
+        .project-section-header{
+            margin: auto;
+            width: 90%;            
         }
-            .project-section-header .header-image-container{                                
+            /* .project-section-header .header-image-container{                                
                 
-            } */
+            }  */
                 .project-section-header .header-image-container img{
                     width: 60px;                    
                 }
@@ -41,9 +43,10 @@ h1{
 
 
         /* SINGLE PROJECTS STYLING */
-        /* .projects-container{
-            border: solid orange;
-        } */
+        .projects-container{
+            margin: auto;
+            width: 80%;
+        }
             .project{
                 background-color: var(--secondary-background-color);
                 border-width: 0.5px 0.5px 0px 0.5px;
