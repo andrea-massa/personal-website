@@ -99,3 +99,24 @@ main{
                 .project-image{
                     border: solid red;
                 }
+
+
+/* CONTACT PAGE */
+h1{
+    border: solid black;    
+}
+    #wrapper{
+        border: solid darkred;
+    }
+        .contact-container{
+            border: solid red;
+        }
+            .contact-picture{
+                border: solid orange;
+            }
+            .contact{
+                border: solid yellow;
+            }
+                .contact span{
+                    border: solid blue;
+                }
