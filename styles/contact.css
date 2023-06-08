@@ -34,3 +34,22 @@ main{
                         font-weight: 400;
                         color: #1F5DA3;
                     }
+
+
+
+
+/* SCROLL ANIMATIONS */
+#email-contact-container.hidden{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#email-contact-container.show{
+    transition: 1s;
+}
+#linkedin-contact-container.hidden{
+    transition: 1s;
+    transform: translateX(100%);
+}
+#linkedin-contact-container.show{
+    transition: 1s;
+}
