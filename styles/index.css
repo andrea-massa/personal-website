@@ -154,10 +154,10 @@
             
             /* SKILLS SUBSECTION */
                     .skills-subsection{
-                        color: var(--main-text-color);                        
-                    }
+                        color: var(--main-text-color);                                                
+                    }                    
                     #design-section{
-                        margin-bottom: 150px;
+                        margin-bottom: 150px;                        
                     }
                         .skills-subsection-header{
                             margin-bottom: 50px;
@@ -194,7 +194,8 @@
                                 font-weight: 400;
                                 font-size: 20px;
                                 line-height: 18px;
-                                margin-bottom: 0;
+                                text-decoration: underline;
+                                margin-bottom: 5px;                                
                             }
                                 .skills-subsection-content ul{                                    
                                     list-style: square;                                    
@@ -243,4 +244,11 @@
     transition: 1.2s;
     filter: blur(0);
     opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+    #design-section{
+        border-right: solid var(--main-text-color);
+    }
 }
