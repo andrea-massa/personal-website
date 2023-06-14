@@ -56,11 +56,6 @@ h1{
                 border-radius: 30px;
                 color: var(--main-text-color);                
             }
-                .project.show:hover{
-                    transition: all 0.5s linear;
-                    transform: scale(1.1);      
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);                
-                }
                 .project-title{
                     font-family: var(--writing-font-semibold);
                     font-style: normal;
@@ -120,28 +115,28 @@ h1{
 
 /* SCROLL ANIMATIONS */
 .project.hidden{
-    transition: 0.25s;
+    transition: transform 0.5s, filter 0.5s;
     transform: scale(0.01);
     filter: blur(5px);
 }
 .project.show{
-    transition: 0.25s; 
+    transition: transform 0.5s, filter 0.5s; 
     transform: scale(1);   
     filter: blur(0px);
 }
 #design-development-project-section > .project-section-header.hidden{
-    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translateX(-100%);    
 }
 #design-development-project-section > .project-section-header.show{
-    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translateX(0px);    
 }
 #design-project-section > .project-section-header.hidden{
-    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translateX(100%);    
 }
 #design-development-project-section > .project-section-header.show{
-    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translateX(0px);    
 }

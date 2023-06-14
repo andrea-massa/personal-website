@@ -83,8 +83,8 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 40px;
         padding: 30px;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
         .about-me-subsection h2{
             font-family: var(--writing-font-semibold);
@@ -211,27 +211,27 @@
 
 /* SCROLL ANIMATIONS */
 #intro-paragraph.hidden{
-    transition: 1.2s;
+    transition: transform, filter 1.2s;
     transform: translateX(-100%);
     filter: blur(5px);
 }
 #intro-paragraph.show{
-    transition: 1.2s;    
+    transition: filter, transform 1.2s;        
     filter: blur(0px);
 }
 
 #bitmoji-intro-wrapper.hidden{
-    transition: 1.2s;   
+    transition: transform, opacity 1.2s;   
     transform: translateY(100%);    
     opacity: 0; 
 }
 #bitmoji-intro-wrapper.show{
-    transition: 1.2s;
+    transition: opacity, transform 1.2s;
     opacity: 1;  
 }
 
 .about-me-subsection.hidden{
-    transition: 1.2s;
+    transition: filter, transform, opacity 1.2s;
     filter: blur(5px);
     transform: translateX(100%);
     opacity: 0;

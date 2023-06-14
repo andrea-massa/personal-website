@@ -12,3 +12,9 @@ const observer = new IntersectionObserver((entries) => {
 $('.hidden').each(function (index, element) {
     observer.observe(element);
 });
+
+
+// WHENEVER THE USER REFRESHES TAKE THEM TO THE TOP OF PAGE
+$(document).ready(function () {
+    window.scrollTo(0, 0);
+});
