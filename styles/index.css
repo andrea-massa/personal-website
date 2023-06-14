@@ -133,13 +133,13 @@
             }
             .education-section-subsection-content{
                 color: var(--main-text-color);                
-            }
+            }                
                 .education-section-subsection-content h3{
                     font-family: var(--writing-font-semibold);
                     font-weight: 500;
                     font-size: 28px;
                     line-height: 26px;                    
-                }
+                }                
                 .education-section-subsection-content p{
                     font-family: var(--writing-font-regular);
                     font-weight: 300;
@@ -148,6 +148,10 @@
                     margin-bottom: 0px;                                                                           
                     margin-left: 20px;
                 }
+                    .education-section-subsection-content .education-label{
+                        font-weight: 600;
+                        line-height: 25px;                        
+                    }
                 .education-section-subsection-image-container img{
                     width: 100px;                       
                 }
@@ -156,8 +160,8 @@
                     .skills-subsection{
                         color: var(--main-text-color);                                                
                     }                    
-                    #design-section{
-                        margin-bottom: 150px;                        
+                    #design-section{                        
+                        border-bottom: solid var(--main-text-color);               
                     }
                         .skills-subsection-header{
                             margin-bottom: 50px;
@@ -249,6 +253,7 @@
 
 @media (min-width: 768px) {
     #design-section{
+        border-bottom: none;
         border-right: solid var(--main-text-color);
     }
 }
