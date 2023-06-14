@@ -5,10 +5,6 @@ const observer = new IntersectionObserver((entries) => {
             $(entry.target).removeClass('hidden');
             $(entry.target).addClass('show');
         }               
-        else{
-            $(entry.target).removeClass('show');
-            $(entry.target).addClass('hidden');
-        }       
     });
 })
 
