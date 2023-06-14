@@ -129,17 +129,24 @@
 
             /* EDUCATION SUBSECTION */
             .education-section-subsection{
-                margin-bottom: 100px;
+                padding-bottom: 50px;
+                margin-bottom: 50px;
             }
             .education-section-subsection-content{
-                color: var(--main-text-color);                
+                color: var(--main-text-color);                                
             }                
+            #cpcc-section{
+                border-bottom: solid var(--main-text-color) 2px;
+            }
                 .education-section-subsection-content h3{
                     font-family: var(--writing-font-semibold);
                     font-weight: 500;
                     font-size: 28px;
                     line-height: 26px;                    
-                }                
+                }                  
+                hr{
+                    margin-bottom: 60px;
+                }                    
                 .education-section-subsection-content p{
                     font-family: var(--writing-font-regular);
                     font-weight: 300;

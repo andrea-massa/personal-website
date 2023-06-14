@@ -21,3 +21,19 @@ footer{
             margin: 10px;           
             width: 60px;
         }
+    #footer-attributions-container{  
+        font-family: var(--writing-font-regular);
+        color: var(--main-text-color);
+        text-align: center;
+        margin: 20px auto 20px auto;
+    }       
+        #footer-attributions-container h3{
+            font-family: var(--writing-font-semibold);
+            text-align: center;
+        }
+        #footer-attributions-container a{
+            font-family: var(--writing-font-regular);
+            color: var(--main-text-color);
+
+        }
+        
