@@ -36,9 +36,11 @@ h1{
             }
                 .project-section-header h2 .design-font{
                     font-family: var(--writing-font-semibold);
+                    font-weight: 600;
                 }
                 .project-section-header h2 .development-font{
                     font-family: var(--techy-font-semibold);
+                    font-weight: 600;
                 }
 
 
@@ -92,7 +94,7 @@ h1{
                     } */
                     .project-github-button{
                         font-family: var(--techy-font-regular);
-                        font-weight: 300;
+                        font-weight: 400;
                         font-size: 16px;
                         line-height: 24px; 
                         color: var(--main-text-color);

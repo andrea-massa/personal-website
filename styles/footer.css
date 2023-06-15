@@ -23,6 +23,7 @@ footer{
         }
     #footer-attributions-container{  
         font-family: var(--writing-font-regular);
+        font-weight: 400;
         color: var(--main-text-color);
         text-align: center;
         margin: 20px auto 20px auto;
@@ -30,10 +31,11 @@ footer{
         #footer-attributions-container h3{
             font-family: var(--writing-font-semibold);
             text-align: center;
+            font-weight: 600;
         }
         #footer-attributions-container a{
             font-family: var(--writing-font-regular);
             color: var(--main-text-color);
-
+            font-weight: 400;
         }
         

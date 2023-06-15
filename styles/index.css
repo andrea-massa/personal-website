@@ -12,14 +12,14 @@
         .hello-world-text{                
             font-family: var(--techy-font-regular);
             font-style: normal;
-            font-weight: 300;
+            font-weight: 400;
             font-size: 24px;
             line-height: 31px;
         }
         .welcome-bold-text{
             font-family: var(--writing-font-bold);
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             font-size: 42px;
             line-height: 39px;
             letter-spacing: 0.1em;
@@ -27,7 +27,7 @@
         .welcome-light-text{
             font-family: var(--writing-font-regular);
             font-style: normal;
-            font-weight: 300;
+            font-weight: 400;
             font-size: 32px;
             line-height: 29px;
         }
@@ -76,7 +76,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 37px;    
-    color: var(--writing-font-regular)
+    color: var(--main-dark-color)
 }
     .about-me-subsection{
         background-color: var(--secondary-background-color);
@@ -89,7 +89,7 @@
         .about-me-subsection h2{
             font-family: var(--writing-font-semibold);
             font-style: normal;
-            font-weight: 700;
+            font-weight: 600;
             font-size: 30px;
             line-height: 28px;
             letter-spacing: 0.2em;
@@ -140,7 +140,7 @@
             }
                 .education-section-subsection-content h3{
                     font-family: var(--writing-font-semibold);
-                    font-weight: 500;
+                    font-weight: 600;
                     font-size: 28px;
                     line-height: 26px;                    
                 }                  
@@ -149,7 +149,7 @@
                 }                    
                 .education-section-subsection-content p{
                     font-family: var(--writing-font-regular);
-                    font-weight: 300;
+                    font-weight: 400;
                     font-size: 20px;
                     line-height: 18px;     
                     margin-bottom: 0px;                                                                           
@@ -187,7 +187,7 @@
                             .skills-subsection-header p{
                                 font-family: var(--writing-font-regular);
                                 font-style: normal;
-                                font-weight: 300;
+                                font-weight: 400;
                                 font-size: 18px;
                                 line-height: 18px;
                             }
@@ -202,7 +202,7 @@
                             .skills-subsection-content h4{
                                 font-family: var(--writing-font-semibold);
                                 font-style: normal;
-                                font-weight: 400;
+                                font-weight: 600;
                                 font-size: 20px;
                                 line-height: 18px;
                                 text-decoration: underline;
