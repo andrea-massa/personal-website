@@ -1,0 +1,145 @@
+main{
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+h1{
+    font-family: var(--writing-font-bold);
+    color: var(--main-dark-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;    
+    margin-bottom: 50px;
+}
+
+
+
+    /* PROJECT SECTION CONTAINERS: DESIGN & DEVELOPMENT SECTION, DESIGN SECTION */
+    .project-section{
+        margin-top: 100px;     
+    }
+        .project-section-header{
+            margin: auto;
+            width: 90%;            
+        }
+            /* .project-section-header .header-image-container{                                
+                
+            }  */
+                .project-section-header .header-image-container img{
+                    width: 60px;                    
+                }
+            .project-section-header h2{
+                color: var(--main-dark-color);
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+                .project-section-header h2 .design-font{
+                    font-family: var(--writing-font-semibold);
+                    font-weight: 600;
+                }
+                .project-section-header h2 .development-font{
+                    font-family: var(--techy-font-semibold);
+                    font-weight: 600;
+                }
+
+
+        /* SINGLE PROJECTS STYLING */
+        .projects-container{
+            margin: auto;
+            width: 80%;
+        }
+            .project{
+                background-color: var(--secondary-background-color);
+                border-width: 0.5px 0.5px 0px 0.5px;
+                border-style: solid;
+                border-color: var(--main-dark-color);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 30px;
+                color: var(--main-text-color);                
+            }
+                .project-title{
+                    font-family: var(--writing-font-semibold);
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 28px;
+                    text-align: center;                    
+                }
+                .project-tech-container{                    
+                    text-align: left;
+                    padding: 0px 10px 0px 10px;
+                }
+                    .project-tech{
+                        display: inline-block;
+                        text-align: center;
+                        background: var(--secondary-accent-color);                                                
+                        border-color: var(--secondary-accent-color);
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 40px;
+                        font-family: var(--techy-font-regular);
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 15px;
+                        line-height: 14px;
+                        padding: 5px 8px 5px 8px;                                                                                                                    
+                        margin: 2.5px 2px 2.5px 2px;
+                        color: (--main-text-color);
+                    }
+                /* .project-image-container{                    
+                    
+                } */
+                    /* .project-image{                                                
+                        border: solid red;                       
+                    } */
+                    .project-github-button{
+                        font-family: var(--techy-font-regular);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px; 
+                        color: var(--main-text-color);
+                        background-color: var(--main-accent-color);
+                        border: 1px solid var(--main-dark-color);
+                        border-radius: 1px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+                        padding: 12px 40px 12px 40px;           
+                        transition: 0.5s;
+                    }
+                    .project-github-button:hover{
+                        transition: 0.5s;
+                        background-color: var(--secondary-accent-color);                    
+                        box-shadow: none;
+                        transform: scale(1.1);
+                    }
+                
+
+
+
+
+/* SCROLL ANIMATIONS */
+.project.hidden{
+    transition: transform 0.5s, filter 0.5s;
+    transform: scale(0.01);
+    filter: blur(5px);
+}
+.project.show{
+    transition: transform 0.5s, filter 0.5s; 
+    transform: scale(1);   
+    filter: blur(0px);
+}
+#design-development-project-section > .project-section-header.hidden{
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateX(-100%);    
+}
+#design-development-project-section > .project-section-header.show{
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateX(0px);    
+}
+#design-project-section > .project-section-header.hidden{
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateX(100%);    
+}
+#design-development-project-section > .project-section-header.show{
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateX(0px);    
+}

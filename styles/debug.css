@@ -1,0 +1,122 @@
+main{
+    border: solid black;
+}
+    #intro-wrapper{
+        border: solid grey;
+    }
+        #intro-paragraph{
+            border: solid red;            
+        }
+        #button-wrapper{
+            border: solid red;
+        }
+    
+    #about-me-wrapper{
+        border: solid grey;        
+    }
+        #my-story-wrapper{
+            border: solid red;
+        }
+            #my-story-content-wrapper{
+                border: solid cyan;
+            }
+                #story-paragraph-container{
+                    border: solid orange;
+                }
+                    #story-paragraph-container p{
+                        border: solid yellow;
+                    }
+                #story-img-container{
+                    border: solid orange;
+                }
+                #story-img-container img{
+                    width: 90%;                                        
+                }
+        #education-wrapper{
+            border: solid red;
+        }
+            .education-section-subsection{
+                border: solid orange;
+            }
+                .education-section-subsection-content{
+                    border: solid yellow;
+                }
+                .education-section-subsection-image-container{
+                    border: solid yellow;
+                }
+        #skills-wrapper{
+            border: solid red;
+        }
+            #content-wrapper{
+                border: solid orange;
+            }
+                .skills-subsection{
+                    border: solid yellow;
+                }
+                    .skills-subsection-header{
+                        border: solid blue;
+                    }
+                    .skills-subsection-content{
+                        border: solid blue;       
+                    }
+                    .skills-subsection-button-wrapper{
+                        border: solid blue;
+                        position: relative;                        
+                    }
+
+
+/* PROJECT PAGE */
+.project-section{
+    border: solid red;    
+}
+    .project-section-header{
+        border: solid orange
+    }   
+        .project-section-header .header-image-container{
+            border: solid darkorange;
+        }
+            .project-section-header img, h2{
+                border: solid yellow
+            }
+    .projects-container{
+        border: solid orange;
+    }
+        .project{
+            border: solid darkorange;
+        }
+            .project-title{
+                border: solid yellow;
+            }
+            .project-tech-container{
+                border: solid yellow;
+            }
+                .project-tech{
+                    border: solid red;
+                }
+            .project-image-container{
+                border: solid yellow;
+            }
+                .project-image{
+                    border: solid red;
+                }
+
+
+/* CONTACT PAGE */
+h1{
+    border: solid black;    
+}
+    #wrapper{
+        border: solid darkred;
+    }
+        .contact-container{
+            border: solid red;
+        }
+            .contact-picture{
+                border: solid orange;
+            }
+            .contact{
+                border: solid yellow;
+            }
+                .contact span{
+                    border: solid blue;
+                }

@@ -1,0 +1,266 @@
+/* 
+    INTRO SECTION WITH WELCOMING MESSAGE AND BUTTONS 
+    TO THE MAIN PARTS OF THE WEBSITE
+*/
+#intro-wrapper{
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+    #intro-paragraph{    
+        color: var(--main-dark-color);
+    }
+        .hello-world-text{                
+            font-family: var(--techy-font-regular);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31px;
+        }
+        .welcome-bold-text{
+            font-family: var(--writing-font-bold);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 39px;
+            letter-spacing: 0.1em;
+        }
+        .welcome-light-text{
+            font-family: var(--writing-font-regular);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 29px;
+        }
+    #bitmoji-intro-wrapper{            
+        margin: 0;
+    }
+        #bitmoji-intro-wrapper img{
+            width: 200px;
+            margin: auto;            
+        }
+        .intro-button, .projects-button{
+            font-family: var(--techy-font-regular);
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 29px; 
+            color: var(--main-text-color);
+            background-color: var(--main-accent-color);
+            border: 1px solid var(--main-dark-color);
+            border-radius: 1px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+            padding: 12px 40px 12px 40px;           
+            transition: 0.5s;
+        }
+            .btn.intro-button:hover, .projects-button:hover{
+                transition: 0.5s;
+                background-color: var(--secondary-accent-color);                    
+                box-shadow: none;
+                transform: scale(1.1);
+            }
+            .btn.intro-button:focus  .projects-button:focus{
+                background-color: var(--secondary-accent-color);                                    
+            }
+            .btn.intro-button:active,  .projects-button:active{
+                background-color: var(--secondary-accent-color);            
+            }        
+
+
+
+/* ABOUT ME SECTIONS */
+#about-me-wrapper{
+    margin-top: 10vh;
+}
+#about-me-wrapper h1{
+    font-family: var(--writing-font-bold);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;    
+    color: var(--main-dark-color)
+}
+    .about-me-subsection{
+        background-color: var(--secondary-background-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        padding: 30px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+        .about-me-subsection h2{
+            font-family: var(--writing-font-semibold);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 28px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--main-text-color);       
+        }
+        .about-me-subsection hr{
+            border: 2px solid var(--main-text-color);
+            opacity: 100%;
+            margin-top: 0px;
+        }
+            /* STORY SUBSECTION */
+            #story-paragraph-container{
+                font-family: var(--writing-font-regular);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: var(--main-text-color);
+            }
+                    #story-paragraph-container p{
+                        margin-bottom: 50px;
+                    }
+                    #story-paragraph-container :nth-child(3){
+                        margin-bottom: 0px;
+                    }
+                #story-img-container{
+                    margin: 0px;
+                    opacity: 75%;
+                }
+                    #story-img-container img{
+                        width: 250px;
+                        border: solid var(--main-text-color);
+                        border-radius: 20px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
+
+            /* EDUCATION SUBSECTION */
+            .education-section-subsection{
+                padding-bottom: 50px;
+                margin-bottom: 50px;
+            }
+            .education-section-subsection-content{
+                color: var(--main-text-color);                                
+            }                
+            #cpcc-section{
+                border-bottom: solid var(--main-text-color) 2px;
+            }
+                .education-section-subsection-content h3{
+                    font-family: var(--writing-font-semibold);
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 26px;                    
+                }                  
+                hr{
+                    margin-bottom: 60px;
+                }                    
+                .education-section-subsection-content p{
+                    font-family: var(--writing-font-regular);
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 18px;     
+                    margin-bottom: 0px;                                                                           
+                    margin-left: 20px;
+                }
+                    .education-section-subsection-content .education-label{
+                        font-weight: 600;
+                        line-height: 25px;                        
+                    }
+                .education-section-subsection-image-container img{
+                    width: 100px;                       
+                }
+            
+            /* SKILLS SUBSECTION */
+                    .skills-subsection{
+                        color: var(--main-text-color);                                                
+                    }                    
+                    #design-section{                        
+                        border-bottom: solid var(--main-text-color);               
+                    }
+                        .skills-subsection-header{
+                            margin-bottom: 50px;
+                        }
+                            .skills-subsection-header img{
+                                width: 100px;
+                            }
+                            .skills-subsection-header h3{                                
+                                font-family: var(--writing-font-semibold);
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 30px;
+                                line-height: 28px;                                                                
+                                text-align: center;
+                            }
+                            .skills-subsection-header p{
+                                font-family: var(--writing-font-regular);
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 18px;
+                            }
+                        /* .skills-subsection-content{
+                            
+                        } */
+                            .skills-subsection-content-subsection{
+                                margin-bottom: 35px;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+                            .skills-subsection-content h4{
+                                font-family: var(--writing-font-semibold);
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 18px;
+                                text-decoration: underline;
+                                margin-bottom: 5px;                                
+                            }
+                                .skills-subsection-content ul{                                    
+                                    list-style: square;                                    
+                                    font-family: var(--writing-font-regular);
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 18px;
+                                }
+
+
+
+
+
+/* SCROLL ANIMATIONS */
+#intro-paragraph.hidden{
+    transition: transform, filter 1.2s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+#intro-paragraph.show{
+    transition: filter, transform 1.2s;        
+    filter: blur(0px);
+}
+
+#bitmoji-intro-wrapper.hidden{
+    transition: transform, opacity 1.2s;   
+    transform: translateY(100%);    
+    opacity: 0; 
+}
+#bitmoji-intro-wrapper.show{
+    transition: opacity, transform 1.2s;
+    opacity: 1;  
+}
+
+.about-me-subsection.hidden{
+    transition: filter, transform, opacity 1.2s;
+    filter: blur(5px);
+    transform: translateX(100%);
+    opacity: 0;
+}
+#education-wrapper.hidden{
+    transform: translateX(-100%);
+}
+.about-me-subsection.show{
+    transition: 1.2s;
+    filter: blur(0);
+    opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+    #design-section{
+        border-bottom: none;
+        border-right: solid var(--main-text-color);
+    }
+}
